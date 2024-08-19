@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe4e1; /* Fondo rosado claro */
+}
+
+form {
+    background-color: #ffffff;
+    padding: 25px; /* Espacio adicional para mayor estética */
+    border: 2px solid #009688; /* Borde con color */
+    border-radius: 8px; /* Borde más redondeado */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00796b; /* Color del texto */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #004d40; /* Color del texto */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px; /* Aumentar el padding */
+    margin-bottom: 15px;
+    border: 1px solid #009688; /* Borde con color */
+    border-radius: 5px; /* Borde más redondeado */
+    background-color: #e0f2f1; /* Fondo claro para inputs */
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Color del botón Enviar */
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Suavizar la transición de color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+
